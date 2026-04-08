@@ -18,4 +18,8 @@ export default defineConfig({
       },
     },
   },
+  base: '/CRM-/',
+  build: {
+    outDir: 'dist',
+  },
 })
